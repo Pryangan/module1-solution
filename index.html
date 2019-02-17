@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Check If Too Much</title>
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body ng-app="check">
+    <div ng-controller="checkcontroller">
+        Enter items : <input type="text" ng-model="name"/>
+        <button type="button" name="button" ng-click="checkstatus();">Check If Too Much</button><br>
+        {{status}}
+    </div>
+  </body>
+</html>
